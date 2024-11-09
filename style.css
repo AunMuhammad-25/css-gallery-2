@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: white;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-main{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-2 nav ul{
+    display: flex;
+    
+
+}
+.header-2{
+    margin-left: 400px;
+}
+.header-2 nav ul li{
+    /* margin-right: 50px; */
+    padding-right: 70px;
+
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.header-2 nav li a{
+    color: black;
+}
+button{
+    font-size: 15px;
+    padding: 8px 20px;
+    color: white;
+ background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    border: none;
+    border-radius: 15px;
+}
+/* ///////////////////////////////////////header finisnh//////////////////// */
+
+.banner-main{
+    display: flex;
+}
+.banner-content h1{
+    margin-top: 100px;
+    max-width: 550px;
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+}
+.banner-content p{
+    color: gray;
+    margin-bottom: 50px;
+}
+.banner-content button{
+    font-size: 15px;
+    padding: 8px 20px;
+    color: white;
+    background: linear-gradient(90deg, #00D2FF 0%, #3A7BD5 100%);
+
+    border: none;
+    border-radius: 15px;
+}
+.banner-img img{
+    width: 100%;
+    max-width: 600px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+
+
+
+
+
+@media screen and (max-width: 1261px){
+    .header-1 img{
+       width: 40px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .header-main {
+        flex-direction: column;
+    }
+    .header-2 img{
+       margin: 20px;
+   
+    }
+    .banner-h1{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .header-3 nav ul{
+        flex-direction: column;
+        line-height: 30px;
+    
+    }
+}
+
+@media screen and (max-width: 1350px){
+    .sec-right p{
+        max-width: 600px;
+    }
+}
+@media screen and (max-width: 1280px){
+    .sec-right p{
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .sec-main{
+        flex-direction: column;
+    }
+    .sec-right{
+        margin-top: 50px;
+    }
+}
